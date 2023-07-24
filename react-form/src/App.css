@@ -1,0 +1,99 @@
+.App {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.task-create {
+	width: 450px;
+}
+.task-update {
+	width: 100%;
+}
+form {
+	display: flex;
+	flex-direction: column;
+}
+.task-label {
+	margin: 10px 0;
+}
+.task-input {
+	padding: 5px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+.btn {
+	margin: 10px 0;
+	padding: 5px;
+	border: 1px solid rgb(27, 167, 51);
+	border-radius: 5px;
+	background-color: #4caf50;
+	color: white;
+	font-size: 20px;
+}
+.btn:hover {
+	background-color: #09690c;
+	opacity: 0.8;
+	cursor: pointer;
+}
+.btn2 {
+	margin: 10px 0;
+	padding: 5px;
+	border: 1px solid rgb(97, 19, 150);
+	border-radius: 5px;
+	background-color: #3b0b55;
+	color: white;
+	font-size: 20px;
+}
+.btn2:hover {
+	background-color: #3b0b55;
+	opacity: 0.8;
+	cursor: pointer;
+}
+.task-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.task-show {
+	width: 450px;
+	border: 1px solid rgb(27, 167, 51);
+	border-radius: 15px;
+	padding: 50px;
+	font-size: 20px;
+	margin: 20px;
+}
+.task-delete {
+	margin: 10px 0;
+	margin-right: 5px;
+	padding: 5px;
+	border: 1px solid rgb(167, 27, 27);
+	border-radius: 15px;
+	background-color: #d01b1b;
+	color: white;
+	font-size: 20px;
+	width: 100px;
+}
+.task-delete:hover {
+	background-color: #830808;
+	opacity: 0.8;
+	cursor: pointer;
+}
+.task-edit {
+	margin: 10px 0;
+	margin-right: 5px;
+	padding: 5px;
+	border: 1px solid rgb(0, 7, 217);
+	border-radius: 15px;
+	background-color: #150c92;
+	color: white;
+	font-size: 20px;
+	width: 100px;
+}
+.task-edit:hover {
+	background-color: #000c5b;
+	opacity: 0.8;
+	cursor: pointer;
+}
+.task-title {
+	margin-bottom: 5px;
+}
