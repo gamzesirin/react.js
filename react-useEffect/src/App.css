@@ -1,0 +1,22 @@
+.App {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.firstDiv {
+	margin-right: 30px;
+}
+button {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 5px;
+	background-color: rgb(19, 93, 203);
+	color: white;
+	border: 1px solid rgb(19, 93, 203);
+	border-radius: 10px;
+}
+button:hover {
+	cursor: pointer;
+}
