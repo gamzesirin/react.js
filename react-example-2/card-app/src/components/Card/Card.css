@@ -1,0 +1,15 @@
+.Card {
+	width: 300px;
+	height: 300px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-shadow: 0 0 5px #ccc;
+	margin: 10px;
+	padding: 10px;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	background-color: #fff;
+	overflow: hidden;
+	position: relative;
+}
